@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore cutting-edge web experiments and interactive demos at the Spencience Web Laboratory">
+    <meta name="keywords" content="web experiments, interactive demos, web laboratory, digital science, web technology">
+    <title>Experiments - Spencience Web Laboratory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .lab-pulse {
+            animation: pulse 2s infinite;
+        }
+        .experiment-card:hover .experiment-icon {
+            transform: rotate(10deg);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100">
+    <header class="bg-gray-900 border-b border-gray-700 p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="/generated-website-1733956200148/" class="text-2xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors mb-4 md:mb-0">
+                <span class="lab-pulse inline-block">🧪</span> Spencience Lab
+            </a>
+            <nav class="space-x-1 md:space-x-4">
+                <a href="https://spencience.github.io/generated-website-1733956200148/experiments.html" class="px-3 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-600 transition-colors">Experiments</a>
+                <a href="https://spencience.github.io/generated-website-1733956200148/documentation.html" class="px-3 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors">Docs</a>
+                <a href="https://spencience.github.io/generated-website-1733956200148/monitor.html" class="px-3 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors">Monitor</a>
+                <a href="https://spencience.github.io/generated-website-1733956200148/settings.html" class="px-3 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors">Settings</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto p-4">
+        <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+            <div id="content" class="prose prose-invert max-w-none">
+                <div class="flex items-center justify-between mb-6">
+                    <h1 class="text-3xl font-bold text-emerald-400">Active Experiments</h1>
+                    <div class="text-sm text-gray-400">Online Experiments: <span class="text-emerald-400">12</span></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <a href="/generated-website-1733956200148/experiments/quantum-rendering.html" class="experiment-card block bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-all">
+                        <div class="flex items-center mb-4">
+                            <span class="experiment-icon text-4xl mr-3">🌌</span>
+                            <h3 class="text-xl font-semibold text-emerald-300">Quantum Rendering</h3>
+                        </div>
+                        <p class="text-gray-300">Exploring quantum-inspired algorithms for real-time graphics rendering</p>
+                        <div class="mt-4 text-sm text-emerald-400">Status: Running</div>
+                    </a>
+
+                    <a href="/generated-website-1733956200148/experiments/neural-typography.html" class="experiment-card block bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-all">
+                        <div class="flex items-center mb-4">
+                            <span class="experiment-icon text-4xl mr-3">📝</span>
+                            <h3 class="text-xl font-semibold text-emerald-300">Neural Typography</h3>
+                        </div>
+                        <p class="text-gray-300">AI-powered dynamic font generation and optimization</p>
+                        <div class="mt-4 text-sm text-emerald-400">Status: Active</div>
+                    </a>
+
+                    <a href="/generated-website-1733956200148/experiments/bio-interface.html" class="experiment-card block bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-all">
+                        <div class="flex items-center mb-4">
+                            <span class="experiment-icon text-4xl mr-3">🧬</span>
+                            <h3 class="text-xl font-semibold text-emerald-300">Bio Interface</h3>
+                        </div>
+                        <p class="text-gray-300">Biological data visualization and interaction patterns</p>
+                        <div class="mt-4 text-sm text-emerald-400">Status: Beta</div>
+                    </a>
+
+                    <a href="/generated-website-1733956200148/experiments/time-dilation.html" class="experiment-card block bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-all">
+                        <div class="flex items-center mb-4">
+                            <span class="experiment-icon text-4xl mr-3">⏳</span>
+                            <h3 class="text-xl font-semibold text-emerald-300">Time Dilation</h3>
+                        </div>
+                        <p class="text-gray-300">Temporal manipulation of web content and user experience</p>
+                        <div class="mt-4 text-sm text-yellow-400">Status: Testing</div>
+                    </a>
+
+                    <a href="/generated-website-1733956200148/experiments/quantum-chat.html" class="experiment-card block bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-all">
+                        <div class="flex items-center mb-4">
+                            <span class="experiment-icon text-4xl mr-3">💬</span>
+                            <h3 class="text-xl font-semibold text-emerald-300">Quantum Chat</h3>
+                        </div>
+                        <p class="text-gray-300">Superposition-based messaging system prototype</p>
+                        <div class="mt-4 text-sm text-emerald-400">Status: Active</div>
+                    </a>
+
+                    <a href="https://spencience.github.io/generated-website-1733956200148/experiments/new.html" class="experiment-card block bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-all border-2 border-dashed border-emerald-400/50">
+                        <div class="flex items-center mb-4">
+                            <span class="experiment-icon text-4xl mr-3">➕</span>
+                            <h3 class="text-xl font-semibold text-emerald-300">New Experiment</h3>
+                        </div>
+                        <p class="text-gray-300">Initialize a new web experiment</p>
+                        <div class="mt-4 text-sm text-emerald-400">Ready to begin</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 border-t border-gray-700 p-4 mt-8">
+        <div class="container mx-auto text-center text-sm text-gray-400">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div>
+                    <a href="https://spencience.github.io/generated-website-1733956200148/status.html" class="hover:text-emerald-400 transition-colors">System Status</a> |
+                    <a href="https://spencience.github.io/generated-website-1733956200148/api.html" class="hover:text-emerald-400 transition-colors">API</a> |
+                    <a href="https://spencience.github.io/generated-website-1733956200148/contact.html" class="hover:text-emerald-400 transition-colors">Contact</a>
+                </div>
+                <div class="mt-2 md:mt-0">
+                    <span>© 2024 Spencience Laboratory</span> |
+                    <a href="https://spencience.github.io/generated-website-1733956200148/terms.html" class="hover:text-emerald-400 transition-colors">Terms</a> |
+                    <a href="https://spencience.github.io/generated-website-1733956200148/privacy.html" class="hover:text-emerald-400 transition-colors">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
